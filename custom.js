@@ -1,5 +1,5 @@
 function getAnAlbum() {
-    fetch("https://swapi.dev/api/species/3")
+    fetch("http://localhost:8001/albums/random")
      .then((albumDataResponse) => {
         albumDataResponse.json()
           .then((album) => {
