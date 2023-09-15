@@ -1,10 +1,10 @@
-##Displays album info
+## Displays album info
 - Title
 - Artist
 - Price
 - Tracks
 
-##API Info
+## API Info
 Run backend.js (`node backend.js`), and API server will run at *localhost:8001*.
 
 - *albums/random*: returns a random album; e.g:
